@@ -1,0 +1,36 @@
+body {
+    background:var(--main-color);
+}
+
+.watch {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+     .back {
+         align-items: center;
+         align-self: center;
+         position: absolute;
+         top: 10px;
+         left: 10px;
+         color: white;
+         cursor: pointer;
+         z-index: 2;
+     }
+
+     .players {
+         width: 80vh !important;
+         height: 60vh !important;
+         object-fit: cover;
+     }
+
+     .movie-info {
+        .info {
+           color: white;     
+        }
+     }
+
+}

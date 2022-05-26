@@ -1,0 +1,23 @@
+:root {
+    --main-color: rgb(19, 18, 18);
+}
+
+body::-webkit-scrollbar {
+  width: 9px;
+  background-color:black;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkred;
+  border-radius:10px;
+}
+
+
+.link {
+    color:inherit;
+    text-decoration: none;
+}
